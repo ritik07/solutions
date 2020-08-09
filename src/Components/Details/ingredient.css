@@ -1,0 +1,8 @@
+.fav::after {
+    position: absolute;
+    content: " ";
+    height: 1.5px;
+    width: 70%;
+    background-color: #a0a0a0;
+    bottom: -10px;
+}

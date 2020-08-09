@@ -1,0 +1,47 @@
+.title_name {
+    font-weight: bold;
+}
+
+
+/* CARD */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.banner--fadeBottom {
+    margin-top: -35px;
+    height: 35px;
+    background-image: linear-gradient( 180deg, transparent, rgba(255, 255, 255, 0.61), #fff);
+}
+
+.dish_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iheartblank {
+    align-items: center;
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    margin: .5px;
+}
+
+.smooth {
+    transition: transform 450ms;
+}
+
+.smooth:hover {
+    transform: scale(1.08);
+}

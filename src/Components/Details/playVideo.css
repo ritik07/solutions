@@ -1,0 +1,18 @@
+.overlay {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+}
+
+.recipe {
+    text-align: right;
+    color: rgb(61, 61, 61);
+}
+
+.rating {
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+}

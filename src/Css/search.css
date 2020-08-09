@@ -1,0 +1,60 @@
+.tlc {
+    top: -180px;
+    position: fixed;
+    right: -100px;
+}
+
+.blc {
+    bottom: -35px;
+    position: fixed;
+    right: -60px;
+}
+
+.blcu {
+    bottom: 150px;
+    position: fixed;
+    right: 60px;
+}
+
+.brc {
+    bottom: -200px;
+    position: fixed;
+    left: -180px;
+    transform: rotate(180deg);
+}
+
+.pizza {
+    position: fixed;
+    top: 180px;
+    left: 110px;
+    width: 100px;
+    height: 100px;
+}
+
+.icon_bg {
+    position: absolute;
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+}
+
+.icon_search {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.search_input {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 220px;
+}
+
+.search_input:focus {
+    outline: none;
+}
