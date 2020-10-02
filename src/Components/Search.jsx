@@ -14,7 +14,6 @@ const Search = () => {
   const ColorHeart = () => (
     <img className="iheartblank" src={IHEARTRED} alt="" />
   );
-  const [foucs, setfoucs] = useState(false);
   const [result, setresult] = useState([]);
   const [input, setinput] = useState("");
 
