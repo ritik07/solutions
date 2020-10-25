@@ -34,6 +34,19 @@ const Categories = ({ title }) => {
       return request;
     }
 
+    
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(API_LINK);
+      request.data.map((dish) => {
+        dish.heart = true;
+      });
+      setDishes(request.data);
+      localStorage.setItem("data", JSON.stringify(request.data));
+      console.log(dishes);
+      return request;
+    }
+
     fetchData();
   }, [API_LINK]);
 
