@@ -36,8 +36,6 @@ const Categories = ({ title }) => {
 
     fetchData();
   }, [API_LINK]);
-  
-  
 
   function hearthandler(id) {
     console.log(id);
@@ -46,14 +44,6 @@ const Categories = ({ title }) => {
     console.log(tempdishes);
     return setDishes(tempdishes);
   }
-
-    function newhandler(id) {
-    const tempdata = [...dishes];
-    tempdishes[id].newitem = !tempdata[id].heart;
-    console.log(tempdata);
-    return setDishes(tempdata);
-  }
-
   return (
     <div className="container">
       {/*Categories Title*/}
