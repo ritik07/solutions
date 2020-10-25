@@ -36,10 +36,8 @@ const Categories = ({ title }) => {
 
     fetchData();
   }, [API_LINK]);
-
-  function truncate(str, n) {
-    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
-  }
+  
+  
 
   function hearthandler(id) {
     console.log(id);
@@ -47,6 +45,13 @@ const Categories = ({ title }) => {
     tempdishes[id].heart = !tempdishes[id].heart;
     console.log(tempdishes);
     return setDishes(tempdishes);
+  }
+
+    function newhandler(id) {
+    const tempdata = [...dishes];
+    tempdishes[id].newitem = !tempdata[id].heart;
+    console.log(tempdata);
+    return setDishes(tempdata);
   }
 
   return (
